@@ -1,5 +1,4 @@
 library(readr) # read_csv
-library(ggplot2) # ggplot
 library(rgdal) # read shapefiles
 library(shiny) # interactive shinyapp
 library(dplyr) # data manipulation
