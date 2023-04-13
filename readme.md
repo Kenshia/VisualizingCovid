@@ -1,3 +1,9 @@
+## How to run the code
+```
+Make sure you have the packages used in the project
+Run the whole code
+```
+
 ## Data sources
 [Data on COVID-19 by Bojan Tunguz on Kaggle](https://www.kaggle.com/datasets/tunguz/data-on-covid19-coronavirus)
 
