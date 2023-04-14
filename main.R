@@ -56,7 +56,7 @@ ui <- fluidPage(
         sidebarPanel(
             sliderInput("date", "Date", min = min(covid$date), max = max(covid$date), value = min(covid$date)),
             selectInput("column", "View", choices = c("total_cases", "new_cases", "total_deaths", "new_deaths")),
-            numericInput("days", "Animate days", value = 0, min = 0, max = 10)
+            numericInput("days", "Animate days", value = 0, min = 0, max = 1000)
         ),
         mainPanel(
             leafletOutput("map")
